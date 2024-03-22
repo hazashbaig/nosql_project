@@ -1,0 +1,24 @@
+.art-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.delete-button-container,
+.update-button-container {
+  position: absolute;
+  bottom: 0;
+  left: 240px; 
+  right: 0;
+  transition: transform 0.3s ease;
+  transform: translateY(200%);
+  margin: 10px;
+}
+
+.update-button-container {
+  bottom: 50px; 
+}
+
+.art-card:hover .delete-button-container,
+.art-card:hover .update-button-container {
+  transform: translateY(0);
+}

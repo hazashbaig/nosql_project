@@ -1,0 +1,50 @@
+/* styles.css */
+
+.arts-container {
+  display: flex;
+  justify-content: center;
+}
+
+.arts-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.art-card {
+  margin: 20px;
+  width: 300px;
+  min-height: 400px;
+  padding: 20px;
+  text-align: center;
+  /* background-color: #f7f7f7; Use a light background color */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.art-card{
+  background-color: aqua;
+}
+
+.art-card:hover {
+  transform: scale(1.05);
+}
+
+.art-subtitle {
+  color: #777; /* Subdued color for the subtitle */
+}
+
+.art-image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.art-description {
+  margin-top: 15px;
+  color: #555;
+}
+
